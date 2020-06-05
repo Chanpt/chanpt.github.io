@@ -15,4 +15,4 @@ function killall(c, a, b) { c = c.replace(/(^\s*|\s*$)/g, "");
             num_deleted_cur = 0;
             document.title = num_deleted_prev + " (" + num_deleted_cur + "/" + d + ")" } else { document.title = num_deleted_prev + " (erreur " + num_deleted_cur + "?)" }
         a += d;
-        b ? 0 == d ? 0 == a ? alert("Nenhuma mensagem para excluir.") : alert(a + " message" + (1 < a ? "s" : "") + " de " + c + " supprim\u00e9" + (1 < a ? "s" : "")) : setTimeout(function() { killall(c, a, b) }, 2000 + d * 1000) : alert("N\u00e3o foi possível excluir uma mensagem.") }) };
+        b ? 0 == d ? 0 == a ? alert("Nenhuma mensagem para excluir.") : alert(a + " mensagens" + (1 < a ? "s" : "") + " de " + c + " foram deletadas." + (1 < a ? "s" : "")) : setTimeout(function() { killall(c, a, b) }, 2000 + d * 1000) : alert("N\u00e3o foi possível excluir uma mensagem.") }) };
