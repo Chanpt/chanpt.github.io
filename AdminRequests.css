@@ -375,6 +375,7 @@ h2.part-title {
     #fa-login-form {
         width: 100%;
         border: none;
+        border-radius: 0px;
     }
 }
 
