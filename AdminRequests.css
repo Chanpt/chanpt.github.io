@@ -247,7 +247,7 @@ h2.part-title {
 #fa-login-form {
     width: 60%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #3398cc;
     border: solid 1px #ddd;
     border-radius: 3px;
 }
@@ -384,9 +384,9 @@ h2.part-title {
     border-radius: 4pc
 }
 
-.fa-form-wrapper {
+/*.fa-form-wrapper {
     background: #3398cc
-}
+}*/
 
 .fa-form-group h4 {
     color: #fff;
