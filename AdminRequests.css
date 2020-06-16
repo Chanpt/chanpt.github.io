@@ -1,4 +1,4 @@
-    /*
+/*
  * Use restrict of Forumotion Support Forums.
  * DO NOT USE OR REDISTRIBUTE.
  *
@@ -346,6 +346,43 @@ div.step#step-2.inactive {
     }
 }
 
+.image.ar i {
+    font-size: 3pc;
+    padding: 1.5pc;
+    background: #ef3333;
+    color: #fff;
+    border-radius: 4pc
+}
+
+.fa-form-wrapper {
+    background: #3398cc
+}
+
+.fa-form-group h4 {
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid #fff
+}
+
+.fa-form-group.clearfix {
+    padding-top: 1pc
+}
+
+.fa-submit {
+    background: #3397cb
+}
+
+button.post-button {
+    background: #333
+}
+
+.fa-form-group textarea {
+    height: 10pc
+}
+
+form#fa-generated-form {
+    margin-top: 2pc
+}
 
 /* Parts */
 
