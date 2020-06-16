@@ -249,7 +249,11 @@ h2.part-title {
     margin: 0 auto;
     background-color: #fff;
     border: solid 1px #ddd;
-    border-radius: 0 0 3px 3px;
+    border-radius: 3px;
+}
+
+#fa-login-form {
+    border-color: #ddd!important;
 }
 
 #fa-login-form {
