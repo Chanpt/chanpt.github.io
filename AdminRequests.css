@@ -252,8 +252,10 @@ h2.part-title {
     border-radius: 3px;
 }
 
-#fa-login-form {
-    border-color: #ddd!important;
+#fa-login-form hr {
+    border: 0;
+    height: 0;
+    border: solid 1px #ddd!important;
 }
 
 #fa-login-form {
