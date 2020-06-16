@@ -242,6 +242,10 @@ div.step#step-2.inactive {
     border-radius: 0 0 3px 3px;
 }
 
+#fa-login-form {
+    margin-bottom: 4em!important;
+}
+
 .fa-form-wrapper {
     width: 100%;
 }
