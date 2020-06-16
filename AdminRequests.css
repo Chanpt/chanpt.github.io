@@ -233,7 +233,8 @@ div.step#step-2.inactive {
 
 /* Form Content */
 
-#fa-generated-form {
+#fa-generated-form,
+#fa-login-form {
     width: 60%;
     margin: 0 auto;
     background-color: #fff;
@@ -269,7 +270,8 @@ div.step#step-2.inactive {
     padding-bottom: 2px;
 }
 
-#fa-generated-form h1 {
+#fa-generated-form h1,
+#fa-login-form h1 {
     font-size: 35px;
     display: block;
     text-align: center;
@@ -341,14 +343,16 @@ div.step#step-2.inactive {
     background-color: #2a6192;
 }
 
-[class*="conteneur"] #fa-generated-form {
+[class*="conteneur"] #fa-generated-form,
+[class*="contaneur"] #fa-login-form {
     border-top: solid 1px #ddd;
     margin-top: 20px;
     border-radius: 3px!important;
 }
 
 @media (max-width: 700px) {
-    #fa-generated-form {
+    #fa-generated-form,
+    #fa-login-form {
         width: 100%;
         border: none;
     }
@@ -388,7 +392,8 @@ button.post-button {
     height: 10pc
 }
 
-form#fa-generated-form {
+form#fa-generated-form,
+#fa-login-form {
     margin-top: 2pc
 }
 
