@@ -572,6 +572,55 @@ form#fa-generated-form {
 }
 
 
+/* Button */
+
+.btn {
+	color: #FFF!important;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 1em auto!important;
+	text-transform: uppercase;
+	background-color: #222;
+	border: 1px solid #222;
+	border-radius: 3px;
+	padding: 15px 50px;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.btn:hover {
+	background-color: #000;
+}
+
+.btn.btn-warning {
+	background-color: #EB3;
+	border-color: #EB3;
+}
+
+.btn.btn-warning:hover {
+	background-color: #DA2;
+}
+
+.btn.btn-danger {
+	background-color: #E53;
+	border-color: #E53;
+}
+
+.btn.btn-danger:hover {
+	background-color: #D42;
+}
+
+.btn.btn-success {
+	background-color: #8C5;
+	border-color: #8C5;
+}
+
+.btn.btn-success:hover {
+	background-color: #7B4
+}
+
 /* Page Footer */
 
 #footer {
