@@ -38,6 +38,14 @@ body {
     clear: both;
 }
 
+.clickhere {
+    font-weight: bold;
+}
+
+.clickhere:hover {
+    border-bottom: 1px solid #A8A8A0;
+}
+
 a,
 a:link,
 a:visited,
@@ -107,7 +115,6 @@ h6,
 .disabled * {
     cursor: not-allowed!important;
 }
-
 
 /* Page Header */
 
