@@ -1,0 +1,28 @@
+#preview .postbody table,
+#preview .postbody td,
+div[class*='post--'] .postbody table,
+div[class*='post--'] .postbody td {
+    border: none!important;
+}
+
+
+/** Novas tabelas moderativas **/
+
+.crhatt {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    width: 1%;
+    background-color: #68B800;
+    display: table-cell;
+    padding-right: 70px;
+}
+
+.crhtd {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    min-width: 80px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 24px!important;
+}
