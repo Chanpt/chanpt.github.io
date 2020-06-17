@@ -418,6 +418,43 @@ form#fa-generated-form,
     margin-top: 2pc
 }
 
+.edit-section {
+  margin-right: 4px;
+  position: absolute;
+  right: -60px;
+  top: 0px;
+  background-color: #39c;
+  border-radius: 3px;
+  width: 40px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.edit-section > div i.fa {
+  color: #fff;
+  font-size: 1.6em;
+  margin: 6px 0px;
+  cursor: pointer;
+}
+
+.edit-section > div i.fa-minus {
+  margin-bottom: 0px;
+}
+
+.edit-section > div i.fa-plus:hover,
+.edit-section > div i.fa-check:hover {
+  color: #8b5;
+}
+
+.edit-section > div i.fa-pencil:hover {
+  color: #eb3;
+}
+
+.edit-section > div i.fa-minus:hover {
+  color: #e53;
+}
+
 /* Parts */
 
 .global-wrap {
