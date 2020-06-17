@@ -438,21 +438,16 @@ form#fa-generated-form,
   cursor: pointer;
 }
 
-.edit-section > div i.fa-minus {
+.edit-section > div i.fa-question {
   margin-bottom: 0px;
 }
 
-.edit-section > div i.fa-plus:hover,
-.edit-section > div i.fa-check:hover {
+.edit-section > div i.fa-plus:hover {
   color: #8b5;
 }
 
-.edit-section > div i.fa-pencil:hover {
+.edit-section > div i.fa-question:hover {
   color: #eb3;
-}
-
-.edit-section > div i.fa-minus:hover {
-  color: #e53;
 }
 
 /* Parts */
