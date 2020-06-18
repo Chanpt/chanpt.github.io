@@ -266,16 +266,6 @@ h2.part-title {
     width: 100%;
 }
 
-.fa-form-group {
-    display: block;
-    width: 100%;
-    padding: 0px 20px;
-}
-
-.fa-form-group *:last-child {
-    margin-bottom: 7px;
-}
-
 .fa-form-group h4 {
     font-size: 23px;
     color: #3072ab;
@@ -301,34 +291,6 @@ h2.part-title {
     background-color: #3072ab;
     margin-top: 0px;
     font-weight: normal;
-}
-
-.fa-form-group label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.fa-form-group input,
-.fa-form-group textarea,
-.fa-form-group select {
-    display: block;
-    width: 100%;
-    padding: .5rem .75rem;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #464a4c;
-    background-color: #fff;
-    background-image: none;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: .25rem;
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 }
 
 .fa-form-group input:focus,
