@@ -1,12 +1,3 @@
-/** Novas tabelas moderativas **/
-.crhtable{position: relative;overflow: hidden;color: white;width: 1%;display: table-cell;padding-right: 70px;border-collapse: collapse;}
-.crhtd {font-family: "FontAwesome";font-size: 32px;background-color: rgba(0, 0, 0, 0.25);padding: 24px!important;user-select: none;}
-.att {background-color: #68B800;} .att2 {padding: 24px 16px!important;}
-.del {background-color: #EF3333;} .del2 {padding: 24px 19px!important;}
-.inf {background-color: #00B5D1;}
-.war {background-color: #F5AE42;}
-.tec {background-color: #444;}
-
 /** Início dos Emblemas **/
 #field_id2 br { display:none; }
  
@@ -227,7 +218,7 @@ input:focus { outline: transparent; }
     border-bottom: 8px solid #464646;
 }
 
-/*-- Logo da RCC --*/
+/*-- Logo --*/
 .menu .menu-container .menu-logo {
     background: url(https://i.imgur.com/rH1Oa6s.png) no-repeat center center;
     float: left;
@@ -999,7 +990,7 @@ hr { border-top-color: #444; }
 }
  
 /**
- * AtribuiÃ§Ã£o final:
+ * Atribuições finais:
  */
  
 .fa-footer .fa-footer-attr {
@@ -1147,269 +1138,8 @@ hr { border-top-color: #444; }
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 /* Ranks Administrativos*/
-.rank.supr{background-image: linear-gradient(124deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000ff, #4b0082, #8f00ff);background-size: 1800% 1800%;animation: rainbow 5s linear infinite;}
-.rank.supr:before{content: "\f521";margin-right: 5px;font-family: "Font Awesome 5 Free";} 
-.rank.adm{background-image: radial-gradient(circle, #ff0000, #db0a10, #b71317, #941719, #711919);background-size: 1800% 1800%;animation: rainbow 6s ease infinite;}
-.rank.adm:before{content: "\f085";margin-right: 5px;font-family: "Font Awesome 5 Free";} 
-.rank.cor{background-image: linear-gradient(to right, #666666, #5c5c5c, #525252, #484848, #3f3f3f, #373737, #2f2f2f, #282828, #202020, #181818, #0e0e0e, #000000);} 
-.rank.cor:before{content: "\f0e3";margin-right: 5px;font-family: "Font Awesome 5 Free";} 
 .rank.cote{background: linear-gradient(to right, #000000 0%, #4b0303 100%); color:#9e0000;}
 .rank.cote:before{content: "\f714";margin-right: 5px;font-family: "Font Awesome 5 Free";} 
-.rank.dsn{background: linear-gradient(to left, #800000, #400000, #000000);}
-.rank.dsn:before{content: "\f121";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-@keyframes rainbow {0% {background-position: 0% 82%;} 50% {background-position: 100% 19%;} 100% {background-position: 0% 82%;}}
-.rank.crh{background: linear-gradient(to right, #009188 0%, #00DBD4 100%);}
-.rank.crh:before{content: "\f2c2";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.mossad{background-image: linear-gradient(to right, #000000, #004002, #040038, #a98a01, #115000);color: #fff09c;background-size: 1800% 1800%;animation: rainbow 6s linear infinite;}
-.rank.mossad:before {content: "\f21b";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.dire{background: linear-gradient(to left ,#000000 25%, #32a808 55%);}
-.rank.dire:before {content: "\f24e";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.gdc{background: linear-gradient(to right, #ccab04 0%, #904e00 100%);} 
-.rank.gdc:before{content: "\f66f";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.cfo{background: linear-gradient(to right, #3BD478 0%, #01baef 74%);}
-.rank.cfo:before {content: "\f02d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.jr{background-image: linear-gradient(to right, #5c23be, #5139cb, #424ad7, #3059e2, #1267eb);} 
-.rank.jr:before{content: "\f1ea";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.exo{background-color: #000000; color: #e20303}
-.rank.exo:before{content: "\f714";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.exo:after{content: "\f714";margin-left: 5px;font-family: "Font Awesome 5 Free";}
-.rank.bpchoque{background-image: linear-gradient(to right, #100E0E, #696969);background-size: 1800% 1800%;animation: rainbow 1.8s ease infinite;}
-.rank.bpchoque:before{content: "\f0e7";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.aud{background-image: linear-gradient(to left, #EB8715, #753901, #3D1606);}
-.rank.aud:before {content: "\f201";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-
-/*Ranks dos UsuÃƒÆ’Ã‚Â¡rios*/
-.rank.mbr{background-color:#78866b}
-.rank.mbr:before{content: "\f4ad";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.ins{background-color:#1D399e;}
-.rank.ins:before{content: "\f19d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.sup{background-color:#2BCF02;}
-.rank.sup:before{content: "\f19d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.tre{background-color:#F21818;}
-.rank.tre:before{content: "\f19d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.prof{background-color:#821F82;}
-.rank.prof:before{content: "\f19d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.rond{background-color:#FF8400;}
-.rank.rond:before{content: "\f19d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.efe{background-color:#27C2D6;}
-.rank.efe:before{content: "\f19d";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-.rank.ldr{background: linear-gradient(to right, #009688 0%, #7986CB 100%);} 
-.rank.ldr:before{content: "\f4ad";margin-right: 5px;font-family: "Font Awesome 5 Free";}
-
-a[style*="#3296FA"], span[style*="#3296FA"] {
-    background: repeating-linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000ff, #4b0082, #8f00ff);
-    -webkit-background-clip: text;
-    background-size: 1800% 1800%;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 3s ease infinite;
-}
-div [style*="#4C0082"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f3ed';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-
-a[style*="#0A0A0A"], span[style*="#0A0A0A"] {
-    font-weight: bold;
-}
-div [style*="#0A0A0A"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f0e3';
-  color: #0A0A0A;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-
-a[style*="#629975"], span[style*="#629975"] {
-     background: linear-gradient(to left ,#000000 25%, #32a808 55%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-}
-div [style*="#629975"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f24e';
-  color: #629975;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-a[style*="#1E6104"], span[style*="#1E6104"] {
-    font-weight: bold;
-}
-div [style*="#1E6104"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f21b';
-  color: #1E6104;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#470000"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f121';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;  
-}
-a[style*="#470000"], span[style*="#470000"] {
-  background: linear-gradient(to left, #800000, #400000, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-div [style*="#C9781A"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f201';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;  
-}
-a[style*="#C9781A"], span[style*="#C9781A"] {
-  background: linear-gradient(to left, #EB8715, #753901, #3D1606);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-a[style*="#AD1818"], span[style*="#AD1818"] {
-    font-weight: bold;
-}
-div [style*="#AD1818"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f714';
-  color:#AD1818;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-a[style*="#00BF9F"], span[style*="#00BF9F"] {
-    font-weight: bold;
-}
-div [style*="#00BF9F"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f2c2';
-  color:#00BF9F;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-a[href^="/g222-"] {
-  display: none;
-}
-a[style*="#858A8A"], span[style*="#858A8A"] {
-    font-weight: bold;
-}
-div [style*="#858A8A"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f187';
-  color:#858A8A;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-
-a[style*="#00731F"], span[style*="#00731F"] {
-    font-weight: bold;
-}
-div [style*="#00731F"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f201';
-  color: #00731F;
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 13px;
-}
-
-/** PersonalizaÃ§Ã£o de UsuÃ¡rios **/
-
-a[href="/u13708"] {
- font-weight: bold;
- color: #196B04!important;
-} 
-a[href="/u13053"] {
- font-weight: bold;
- color: #0b46c9!important;
-}
-a[href="/u13053"]:not(.profile-icon):before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f1ea';
-  color:#0b46c9;
-  margin-right: 2px;
-  font-weight: 1000;
-}
-.postprofile-avatar a[href="/u13053"]:before { display: none; }
-
-a[href="/u13520"] {
- font-weight: bold;
-  background: linear-gradient(to right, #009688 0%, #7986CB 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-a[href="/u13520"]:not(.profile-icon):before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f075';
-  margin-right: 2px;
-  font-weight: 1000;
-}
-.postprofile-avatar a[href="/u13520"]:before { display: none; }
-
-a[href="/u12594"] {
- font-weight: bold;
- color: #F011AD!important;
-}
-
-/*Mod Tools*/
-.success a, .information a, .warn a, .alert a, .custom a, .dev a, .jrevo a, .admin a, .aud a{color: #ecf0f1!important;text-decoration: underline!important;}
-.success {/*color: #270;*/background-color: #00a300;}
-.success tr:first-child::before {content: '\F058 ';font-family: "FontAwesome";}
-.alert {/*color: #9F6000;*/background-color: #ffc40d;}
-.alert tr::before {content: '\F071 ';font-family: FontAwesome;}
-.warn {/*color: #D8000C;*/background-color: #e54d42;}
-.warn tr::before {content: '\F057 ';font-family: FontAwesome;}
-.information {/*color: #059;*/background-color: #3a99d9;}
-.information tr::before {content: '\F05a ';font-family: FontAwesome;}
-.custom {background-color: #2C3E50;}
-.custom tr::before {content: '\F069 ';font-family: FontAwesome;}
-.dev {background-color: #3296FA;}
-.dev tr::before {content: '\F121 ';font-family: FontAwesome;}
-.jrevo {background-color: #00468c;}
-.jrevo tr::before {content: '\F1ea ';font-family: FontAwesome;}
-.admin {background-color: #00468c;}
-.admin tr::before {content: '\f013 ';font-family: FontAwesome;}
-.audi {background-color: #005C03;}
-.audi tr::before {content: '\F201 ';font-family: FontAwesome;}
-.info-table.dev {background: linear-gradient(to right, #000000, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #c0c0c0, #FFFFFF);background-size: 1800% 1800%;animation: rainbow 10s ease infinite;}
-.info-table.admin {background-image: radial-gradient(circle, #ff0000, #db0a10, #b71317, #941719, #711919);background-size: 1800% 1800%;animation: rainbow 6s ease infinite;}
-
-.mod_groups {
-    line-height: 1.5;
-    font-size: 11px;
-    font-weight: 400;
-}
-.mod_editor_section {
-    background: #eceff1;
-    padding: 5px;
-    font-weight: bold;
-    text-align: left;
-    text-transform: uppercase;
-}
-.copyright_e {
-    font-size: 9px;
-    color: black;
-}
-.mod_editor_message {
-    padding: 2px 5px;
-    text-align: left;
-}
-.mod_groups {
-    height: 150px;
-    overflow-y: scroll;
-}
-.mod_groups li {
-    list-style-type: none;
-}
 
 /*SCEDITOR*/
 
@@ -1559,15 +1289,6 @@ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.93);
 color: #FCFCFC;
 }
 
-.show-more-em {
-    padding: 9px 16px;
-    background-color: #263238;
-    border-radius: 3px;
-    font-size: 14px;
-    color: #fff!important;
-    font-weight: 600;
-}
-.show-more-em:hover { background-color: rgba(0,0,0,0.44); }
         .fade {
             display:inline-block;
             background: -moz-linear-gradient(left, rgb(235,234,221) 0%, rgba(235,234,221,0) 100%);
@@ -1617,92 +1338,6 @@ color: #FCFCFC;
 .post-entry {
 color: #fff!important;
 }
-
-div [style*="#3296FA"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f3ed';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#0A0A0A"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f0e3';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#A62323"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f714';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#"]::before {
-  font-family: "Font Awesome 5 Free";  
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#00BF9F"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f2c2';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#A0B8B5"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f274';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#D6CA4B"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f66f';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-div [style*="#525054"]::before {
-  font-family: "Font Awesome 5 Free";  
-  content:'\f0e7';
-  margin-right: 3px;
-  font-weight: 1000;
-  font-size: 12px;
-}
-/*DESENVOLVEDOR*/
-a[style*="#3296FA"], span[style*="#3296FA"] {
-    background: repeating-linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000ff, #4b0082, #8f00ff);
-    -webkit-background-clip: text;
-    background-size: 1800% 1800%;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 3s ease infinite;
-}
-/*DIRETORIA*/
-a[style*="#629975"], span[style*="#629975"] {
-    background: linear-gradient(to left ,#000000 25%, #32a808 55%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-/*GDC*/
-a[style*="#A0B8B5"], span[style*="#A0B8B5"] {
-    background: linear-gradient(to right, #009688 0%, #7986CB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-a[style*="#525054"], span[style*="#525054"] {
-    background: repeating-linear-gradient(to right, #100E0E, #696969);
-    -webkit-background-clip: text;
-    background-size: 1800% 1800%;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 1.8s ease infinite;
-}
-span [style*="#692587"]::before {
-  background: url(https://images.habblet.net/c_images/album1584/HBT481.gif);
-}
 .admin-link a:nth-child(2) {
    display: none!important;
 }
@@ -1729,11 +1364,4 @@ span [style*="#692587"]::before {
     background: transparent;
     border: 0px none #ffffff;
     border-radius: 50px;
-}
-
-/*END-SCROLL*/
-
-::selection {
-  background-color: #e3bd00;
-  color: #FFF;
 }
