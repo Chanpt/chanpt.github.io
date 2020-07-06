@@ -871,8 +871,6 @@ hr { border-top-color: #444; }
 
 /*  FOOTER
 **===================*/
-.statistics-item strong a span, .statistics-item a:link, .statistics-item a:visited { color: #fff!important; }
-
 .footerbar-system { padding: 20px 0; }
 
 /**
