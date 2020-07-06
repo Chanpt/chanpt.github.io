@@ -857,7 +857,7 @@ hr { border-top-color: #444; }
 
 .block .legend b a {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .block .legend b a::after {
