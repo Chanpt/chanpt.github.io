@@ -420,7 +420,72 @@ a[data-status*="Nova"] .login-btn.mp:after {
 input[type="submit"]:hover,
 .button-round:hover { background-color: #242424; }
 
-/*foruns e subforuns*/
+/*--- FÃ“RUNS E SUB-FÃ“RUNS ---*/
+.forabg, .forumbg {
+    background-color: transparent;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    margin-bottom: 24px;
+}
+
+.forabg .header, .forumbg .header {
+    background-color: #2B4A75;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1), 0 0 2px rgba(0,0,0,0.1);
+    color: #FFF;
+    display: block;
+    font-weight: 400;
+    position: relative;
+}
+
+.btn-collapse i { font-size: 2.7rem!important; }
+
+.forabg.hidden, .forumbg.hidden { background-color: transparent; }
+
+.forabg.hidden .forums, .forumbg.hidden .forums { margin-top: 0; }
+
+ul.forums, ul.topics {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1), 0 0 2px rgba(0,0,0,0.1);
+    display: block;
+    line-height: 22px;
+    margin-top: 6px;
+}
+
+.topiclist .row {
+    border-color: #f0f0f0;
+    border-style: solid;
+    border-width: 1px 0 0;
+}
+
+ul.topiclist.topics dd { padding: 8px 0; }
+
+ul.topics .row dd.dterm, ul.topics .row dt { padding: 9px 18px 9px 30px; }
+
+ul.forums dl.icon dd.dterm > div {
+    margin-left: 30px!important;
+    color: #777;
+}
+
+dd.dterm > div br { display: none; }
+
+a.forumtitle:link,
+a.forumtitle:visited,
+a.topictitle:link,
+a.topictitle:visited { 
+     color: #263238;
+     margin-bottom: 1%;
+}
+
+dd.posts, dd.topics, dd.views { font-size: 16px; }
+
+dd.posts span, dd.topics span, dd.views span {
+    clear: both;
+    color: #797979;
+    display: block;
+    font-size: 13px;
+}
+
 dd.lastpost span br:nth-child(3) { display: none!important; }
 
 dd.lastpost span.color-groups { float: none!important; }
