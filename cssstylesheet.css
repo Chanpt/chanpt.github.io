@@ -428,7 +428,7 @@ input[type="submit"]:hover,
 }
 
 .forabg .header, .forumbg .header {
-    background-color: #57abff;
+    background-color: #375e7f;
     border-radius: 3px;
     box-shadow: 0 2px 3px rgba(0,0,0,0.1), 0 0 2px rgba(0,0,0,0.1);
     color: #FFF;
@@ -436,7 +436,7 @@ input[type="submit"]:hover,
     font-weight: 400;
     font-size: 13px;
     position: relative;
-    border-bottom: 4px solid #4b93dc;
+    border-bottom: 4px solid #29455E;
 }
 
 .btn-collapse i { font-size: 2.7rem!important; }
